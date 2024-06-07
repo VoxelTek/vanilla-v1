@@ -38,8 +38,7 @@ The build process is otherwise normal for a CMake program:
 ```
 git clone --recursive https://github.com/vanilla-wiiu/vanilla.git
 cd vanilla
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 cmake --build .
 ```
